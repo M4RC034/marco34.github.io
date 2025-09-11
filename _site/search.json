@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site, apply change to see how quarto preview would work"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marco_521_Quarto",
+    "section": "",
+    "text": "To apply changes to the website, run quarto render again.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
