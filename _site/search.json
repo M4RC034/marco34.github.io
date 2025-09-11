@@ -9,7 +9,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Marco_521_Quarto",
+    "title": "Hsuan-Yu (Marco) Wang",
+    "section": "",
+    "text": "To apply changes to the website, run quarto render again.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publication",
     "section": "",
     "text": "To apply changes to the website, run quarto render again.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
