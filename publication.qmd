@@ -1,8 +1,6 @@
 ---
 title: "Publication"
 ---
-To apply changes to the website, run `quarto render` again. 
-
-This is a Quarto website.
+Updating soon
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
