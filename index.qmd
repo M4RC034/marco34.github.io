@@ -1,7 +1,6 @@
 ---
 title: "Hsuan-Yu (Marco) Wang"
 ---
-To apply changes to the website, run `quarto render` again. 
 
 This is a Quarto website.
 

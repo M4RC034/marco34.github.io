@@ -1,5 +1,6 @@
 ---
 title: "About me"
 ---
+Hi, I'm Marco. 
 
 About this site, apply change to see how `quarto preview` would work
