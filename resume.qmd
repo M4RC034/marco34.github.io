@@ -1,0 +1,89 @@
+---
+title: "Resume"
+---
+
+<div class="text-center" style="margin-bottom: 2rem;">
+<a href="Resume.pdf" class="btn btn-outline-primary btn-lg" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> Download PDF Version </a>
+</div>
+
+## Professional Summary
+
+Machine learning engineer and Data Scientist specializing in computational linguistics and speech processing, with hands-on experience building ASR/TTS pipelines and multi-speaker modeling (diarization, VAD, SER).
+
+---
+
+## Technical Skills
+
+| Category | Skills |
+|---|---|
+| **Languages** | Python, C/C++, R, JavaScript, SQL, Swift |
+| **ML / Deep Learning** | PyTorch, Transformers, Scikit-learn, Diffusion LLM, Retrieval-Augmented Generation (RAG) |
+| **Speech / Audio Tooling** | ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow |
+| **Data Science & Analysis** | NumPy, Pandas, Matplotlib, PostgreSQL, Seaborn |
+| **Experiment & Dev Tools** | Weights & Biases, Jupyter, Git, Linux, Conda, AWS, Docker, FastAPI |
+
+---
+
+## Work Experience
+
+**Graduate Research Assistant** | Vancouver, BC  
+*Speech, Language and Interactive Media Lab, The University of British Columbia* | *Aug 2025 – Present*
+
+* Investigate how diffusion-based models improve text-to-speech by developing end-to-end experimentation workflows—from dataset curation and preprocessing to model training, inference, and performance reporting.
+
+---
+
+## Research Experience
+
+**Undergraduate Research** | Taipei, TW  
+*Speech and Machine Intelligence Laboratory, National Taiwan Normal University*  
+*Principal Investigator: Dr. Berlin Chen* | *Nov 2024 – June 2025*
+
+* Led a research project on multi-speaker Speech Emotion Recognition, improving alignment accuracy & data quality.
+* Developed a pipeline integrating WhisperX and Pyannote outputs into a novel alignment method, combining aligned audio segments with Wav2vec 2.0 and RoBERTa via bimodal cross-attention fusion.
+* Achieved +10% accuracy improvement on the IEMOCAP dataset, demonstrating the benefits of using aligned, clean segments for SER in multi-speaker settings.
+
+---
+
+## Projects
+
+**Annotated Corpus Platform with Interactive Interface** | Remote  
+*Github* | *Dec 2026*
+
+* Built an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.
+* Containerized the system using Docker to ensure reproducibility and simplify deployment in production-like environments.
+
+**Automated Pipeline for TTS Quality Assessment via Speaker Verification Analysis** | Vancouver, BC  
+*UBC* | *Dec 2025*
+
+* Developed an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain’s ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.
+
+**Text-to-Speech (TTS) Model Training** | Taipei, TW  
+*NTNU* | *Dec 2024*
+
+* Implemented a FastSpeech2-based Text-to-Speech model using SpeechBrain, training on the LJSpeech 1.1 dataset.
+* Utilized checkpoint-based training to resume experiments efficiently and maintain reproducibility across training iterations.
+
+**Automatic Speech Recognition (ASR) Project** | Taipei, TW  
+*NTNU* | *Sep 2024*
+
+* Built an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compare that to Conformer.
+* Conducted comprehensive data analysis and optimized model parameters, resulting in a 15% performance improvement of the Transformer model over Conformer, and analyzed the stability and effectiveness in feature extraction and speech recognition tasks in both models.
+
+---
+
+## Education
+
+**University of British Columbia** | Vancouver, BC  
+*Master of Data Science in Computational Linguistics* | *Sep 2025 – Jun 2026*
+
+**National Taiwan Normal University** | Taipei, TW  
+*Double Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English* | *Sep 2020 – Jun 2025*
+
+---
+
+## Publication
+
+“Enhancing Speech Emotion Recognition Leveraging Aligning Timestamps of ASR Transcripts and Speaker Diarization.”  
+*2025 International Conference on Asian Language Processing (IALP)*, pp. 85-90. Hsuan-Yu Wang, Pei-Ying Lee, Berlin Chen  
+10.1109/IALP68296.2024.11156415

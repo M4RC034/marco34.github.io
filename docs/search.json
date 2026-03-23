@@ -2,22 +2,71 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About me",
     "section": "",
-    "text": "About this site, apply change to see how quarto preview would work"
+    "text": "Hi, I’m Marco.\nAbout this site, apply change to see how quarto preview would work"
   },
   {
-    "objectID": "publication.html",
-    "href": "publication.html",
-    "title": "Publication",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "To apply changes to the website, run quarto render again.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Download PDF Version"
+  },
+  {
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
+    "title": "Resume",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nMachine learning engineer and Data Scientist specializing in computational linguistics and speech processing, with hands-on experience building ASR/TTS pipelines and multi-speaker modeling (diarization, VAD, SER)."
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Resume",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\n\n\n\n\n\n\nCategory\nSkills\n\n\n\n\nLanguages\nPython, C/C++, R, JavaScript, SQL, Swift\n\n\nML / Deep Learning\nPyTorch, Transformers, Scikit-learn, Diffusion LLM, Retrieval-Augmented Generation (RAG)\n\n\nSpeech / Audio Tooling\nESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow\n\n\nData Science & Analysis\nNumPy, Pandas, Matplotlib, PostgreSQL, Seaborn\n\n\nExperiment & Dev Tools\nWeights & Biases, Jupyter, Git, Linux, Conda, AWS, Docker, FastAPI"
+  },
+  {
+    "objectID": "resume.html#work-experience",
+    "href": "resume.html#work-experience",
+    "title": "Resume",
+    "section": "Work Experience",
+    "text": "Work Experience\nGraduate Research Assistant | Vancouver, BC\nSpeech, Language and Interactive Media Lab, The University of British Columbia | Aug 2025 – Present\n\nInvestigate how diffusion-based models improve text-to-speech by developing end-to-end experimentation workflows—from dataset curation and preprocessing to model training, inference, and performance reporting."
+  },
+  {
+    "objectID": "resume.html#research-experience",
+    "href": "resume.html#research-experience",
+    "title": "Resume",
+    "section": "Research Experience",
+    "text": "Research Experience\nUndergraduate Research | Taipei, TW\nSpeech and Machine Intelligence Laboratory, National Taiwan Normal University\nPrincipal Investigator: Dr. Berlin Chen | Nov 2024 – June 2025\n\nLed a research project on multi-speaker Speech Emotion Recognition, improving alignment accuracy & data quality.\nDeveloped a pipeline integrating WhisperX and Pyannote outputs into a novel alignment method, combining aligned audio segments with Wav2vec 2.0 and RoBERTa via bimodal cross-attention fusion.\nAchieved +10% accuracy improvement on the IEMOCAP dataset, demonstrating the benefits of using aligned, clean segments for SER in multi-speaker settings."
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Resume",
+    "section": "Projects",
+    "text": "Projects\nAnnotated Corpus Platform with Interactive Interface | Remote\nGithub | Dec 2026\n\nBuilt an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.\nContainerized the system using Docker to ensure reproducibility and simplify deployment in production-like environments.\n\nAutomated Pipeline for TTS Quality Assessment via Speaker Verification Analysis | Vancouver, BC\nUBC | Dec 2025\n\nDeveloped an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain’s ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.\n\nText-to-Speech (TTS) Model Training | Taipei, TW\nNTNU | Dec 2024\n\nImplemented a FastSpeech2-based Text-to-Speech model using SpeechBrain, training on the LJSpeech 1.1 dataset.\nUtilized checkpoint-based training to resume experiments efficiently and maintain reproducibility across training iterations.\n\nAutomatic Speech Recognition (ASR) Project | Taipei, TW\nNTNU | Sep 2024\n\nBuilt an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compare that to Conformer.\nConducted comprehensive data analysis and optimized model parameters, resulting in a 15% performance improvement of the Transformer model over Conformer, and analyzed the stability and effectiveness in feature extraction and speech recognition tasks in both models."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nUniversity of British Columbia | Vancouver, BC\nMaster of Data Science in Computational Linguistics | Sep 2025 – Jun 2026\nNational Taiwan Normal University | Taipei, TW\nDouble Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English | Sep 2020 – Jun 2025"
+  },
+  {
+    "objectID": "resume.html#publication",
+    "href": "resume.html#publication",
+    "title": "Resume",
+    "section": "Publication",
+    "text": "Publication\n“Enhancing Speech Emotion Recognition Leveraging Aligning Timestamps of ASR Transcripts and Speaker Diarization.”\n2025 International Conference on Asian Language Processing (IALP), pp. 85-90. Hsuan-Yu Wang, Pei-Ying Lee, Berlin Chen\n10.1109/IALP68296.2024.11156415"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hsuan-Yu (Marco) Wang",
     "section": "",
-    "text": "To apply changes to the website, run quarto render again.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
