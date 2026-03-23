@@ -1,7 +1,44 @@
 ---
 title: "Hsuan-Yu (Marco) Wang"
+image: "image/marco.jpg"
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hyw0234/
+    - icon: github
+      text: Github
+      href: https://github.com/M4RC034
+    - icon: envelope
+      text: Email
+      href: mailto:marco34@student.ubc.ca
 ---
 
-This is a Quarto website.
+<div style="text-align: left; max-width: 800px; margin: 0 auto;">
+<p>I am a student at the <strong>University of British Columbia (UBC)</strong> in the Master of Data Science in Computational Linguistics program, passionate about bridging the gap between computational linguistics and speech processing.</p>
+<p>My primary interests lie in <strong>Data Science</strong>, <strong>Machine Learning</strong>, and <strong>Speech/Audio Modeling</strong>. I enjoy building tools that solve real-world problems—whether it’s uncovering underlying patterns behind phenomena or constructing fundamental end-to-end ASR/TTS pipelines.</p>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Education
+
+**University of British Columbia** | Vancouver, BC, Canada
+<div style="padding-left: 1.5em; margin-bottom: 1em;">
+<p><strong>Master of Data Science, Computational Linguistics</strong>  | <em>August 2025 - Jun 2026</em></p>
+</div>
+
+**National Taiwan Normal University** | Taipei, TW
+<div style="padding-left: 1.5em; margin-bottom: 1em;">
+<p><strong>Double Degree</strong>: B.S. in Computer Science & B.A. in English | <em>Sept 2020 - June 2025</em></p>
+</div>
+
+### Interests
+
+<ul>
+<li><strong>Programming</strong>: Python, C/C++, R, JavaScript, SQL, Swift</li>
+<li><strong>Machine Learning</strong>: PyTorch, Diffusion LLM, Retrieval-Augmented Generation (RAG)</li>
+<li><strong>Speech / Audio Tooling</strong>: ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow</li>
+</ul>
+
+</div>

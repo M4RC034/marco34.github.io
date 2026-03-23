@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Marco Wang's Website"
+  search: false
+  title: "Marco Wang"
   navbar:
     left:
       - href: index.qmd
@@ -13,6 +14,7 @@ website:
 
 format:
   html:
+    include-after-body: translate.html
     theme:
       - cosmo
       - brand

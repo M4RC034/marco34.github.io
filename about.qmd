@@ -1,6 +1,17 @@
 ---
-title: "About me"
+title: "About Me"
 ---
-Hi, I'm Marco. 
 
-About this site, apply change to see how `quarto preview` would work
+Hi, I’m **Marco Wang**, a researcher and builder working at the intersection of **speech technology, natural language processing, and multimodal AI**. I am currently pursuing a **Master of Data Science in Computational Linguistics at the University of British Columbia**, where I focus on developing intelligent systems that can better understand and generate human language and speech.
+
+My work is especially centered on **speech and language technologies**, including **text-to-speech, speaker-related modeling, speech emotion recognition, and multimodal learning**. I am interested in how different signals—such as audio, text, and speaker information—can be combined to create AI systems that are not only more accurate, but also more natural, adaptive, and useful in real-world settings.
+
+Before coming to UBC, I worked as an undergraduate research assistant in speech and machine intelligence, where I gained hands-on experience building end-to-end machine learning pipelines for audio and language data. Since then, I have continued exploring research questions around speech processing, model alignment, and human-centered AI applications.
+
+What excites me most is building AI that can make technology more accessible and meaningful in everyday life. I am particularly drawn to applications in areas like **healthcare, communication, and assistive technology**, where speech and language systems can have a direct positive impact on people’s lives.
+
+Outside of research, I enjoy learning about new AI ideas, refining projects from concept to implementation, and thinking about how to turn technical advances into practical tools that people can actually use.
+
+---
+
+> I’m always excited to connect with people who are interested in speech AI, multimodal learning, and building technology that helps people in meaningful ways.

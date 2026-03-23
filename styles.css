@@ -1,1 +1,7 @@
 /* css styles */
+.about-image {
+  padding: 1rem;
+  box-sizing: border-box;
+  object-fit: cover !important;
+  object-position: center top !important;
+}

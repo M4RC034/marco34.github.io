@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About me",
+    "title": "About Me",
     "section": "",
-    "text": "Hi, I’m Marco.\nAbout this site, apply change to see how quarto preview would work"
+    "text": "Hi, I’m Marco Wang, a researcher and builder working at the intersection of speech technology, natural language processing, and multimodal AI. I am currently pursuing a Master of Data Science in Computational Linguistics at the University of British Columbia, where I focus on developing intelligent systems that can better understand and generate human language and speech.\nMy work is especially centered on speech and language technologies, including text-to-speech, speaker-related modeling, speech emotion recognition, and multimodal learning. I am interested in how different signals—such as audio, text, and speaker information—can be combined to create AI systems that are not only more accurate, but also more natural, adaptive, and useful in real-world settings.\nBefore coming to UBC, I worked as an undergraduate research assistant in speech and machine intelligence, where I gained hands-on experience building end-to-end machine learning pipelines for audio and language data. Since then, I have continued exploring research questions around speech processing, model alignment, and human-centered AI applications.\nWhat excites me most is building AI that can make technology more accessible and meaningful in everyday life. I am particularly drawn to applications in areas like healthcare, communication, and assistive technology, where speech and language systems can have a direct positive impact on people’s lives.\nOutside of research, I enjoy learning about new AI ideas, refining projects from concept to implementation, and thinking about how to turn technical advances into practical tools that people can actually use.\n\n\nI’m always excited to connect with people who are interested in speech AI, multimodal learning, and building technology that helps people in meaningful ways."
   },
   {
     "objectID": "resume.html",
@@ -67,6 +67,6 @@
     "href": "index.html",
     "title": "Hsuan-Yu (Marco) Wang",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a student at the University of British Columbia (UBC) in the Master of Data Science in Computational Linguistics program, passionate about bridging the gap between computational linguistics and speech processing.\n\n\nMy primary interests lie in Data Science, Machine Learning, and Speech/Audio Modeling. I enjoy building tools that solve real-world problems—whether it’s uncovering underlying patterns behind phenomena or constructing fundamental end-to-end ASR/TTS pipelines.\n\n\nEducation\nUniversity of British Columbia | Vancouver, BC, Canada\n\n\nMaster of Data Science, Computational Linguistics | August 2025 - Jun 2026\n\n\nNational Taiwan Normal University | Taipei, TW\n\n\nDouble Degree: B.S. in Computer Science & B.A. in English | Sept 2020 - June 2025\n\n\n\n\nInterests\n\n\nProgramming: Python, C/C++, R, JavaScript, SQL, Swift\n\n\nMachine Learning: PyTorch, Diffusion LLM, Retrieval-Augmented Generation (RAG)\n\n\nSpeech / Audio Tooling: ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow"
   }
 ]
