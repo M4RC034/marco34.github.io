@@ -85,6 +85,23 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/hyw0234/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/M4RC034"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:marco34@student.ubc.ca"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -137,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="professional-summary" class="level2">
 <h2 class="anchored" data-anchor-id="professional-summary">Professional Summary</h2>
-<p>Machine learning engineer and Data Scientist specializing in computational linguistics and speech processing, with hands-on experience building ASR/TTS pipelines and multi-speaker modeling (diarization, VAD, SER).</p>
+<p>Machine learning engineer and data scientist with experience in computational linguistics, speech processing, and NLP systems, with hands-on experience on end-to-end ML pipelines, conversational AI applications, and multimodal speech systems.</p>
 <hr>
 </section>
 <section id="technical-skills" class="level2">
@@ -160,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>ML / Deep Learning</strong></td>
-<td>PyTorch, Transformers, Scikit-learn, Diffusion LLM, Retrieval-Augmented Generation (RAG)</td>
+<td>PyTorch, Transformers, Scikit-learn, Retrieval-Augmented Generation (RAG), Diffusion Models</td>
 </tr>
 <tr class="odd">
 <td><strong>Speech / Audio Tooling</strong></td>
@@ -172,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td><strong>Experiment &amp; Dev Tools</strong></td>
-<td>Weights &amp; Biases, Jupyter, Git, Linux, Conda, AWS, Docker, FastAPI</td>
+<td>FastAPI, Docker, AWS, Git, Linux, Conda, Jupyter, Weights &amp; Biases, Apptainer</td>
 </tr>
 </tbody>
 </table>
@@ -202,26 +219,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <p><strong>Annotated Corpus Platform with Interactive Interface</strong> | Remote<br>
-<em>Github</em> | <em>Dec 2026</em></p>
+<em>Github</em> | <em>Mar 2026</em></p>
 <ul>
-<li>Built an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.</li>
+<li>Collaborated in a group of four to build an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.</li>
 <li>Containerized the system using Docker to ensure reproducibility and simplify deployment in production-like environments.</li>
+</ul>
+<p><strong>RAG-Based Recipe Chatbot</strong> | Remote<br>
+<em>Github</em> | <em>Mar 2026</em></p>
+<ul>
+<li>Developed a Python-based recipe chatbot using Retrieval-Augmented Generation (RAG), all-MiniLM-L6-v2 embeddings, and cosine-similarity vector search to answer natural-language queries over a cookbook dataset.</li>
+<li>Integrated LLaMA 3.3 70B via NVIDIA API, intent classification, and recipe-scaling features to improve response relevance, functionality, and user experience.</li>
 </ul>
 <p><strong>Automated Pipeline for TTS Quality Assessment via Speaker Verification Analysis</strong> | Vancouver, BC<br>
 <em>UBC</em> | <em>Dec 2025</em></p>
 <ul>
 <li>Developed an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain’s ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.</li>
 </ul>
-<p><strong>Text-to-Speech (TTS) Model Training</strong> | Taipei, TW<br>
-<em>NTNU</em> | <em>Dec 2024</em></p>
-<ul>
-<li>Implemented a FastSpeech2-based Text-to-Speech model using SpeechBrain, training on the LJSpeech 1.1 dataset.</li>
-<li>Utilized checkpoint-based training to resume experiments efficiently and maintain reproducibility across training iterations.</li>
-</ul>
 <p><strong>Automatic Speech Recognition (ASR) Project</strong> | Taipei, TW<br>
 <em>NTNU</em> | <em>Sep 2024</em></p>
 <ul>
-<li>Built an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compare that to Conformer.</li>
+<li>Built an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compared it to Conformer.</li>
 <li>Conducted comprehensive data analysis and optimized model parameters, resulting in a 15% performance improvement of the Transformer model over Conformer, and analyzed the stability and effectiveness in feature extraction and speech recognition tasks in both models.</li>
 </ul>
 <hr>
@@ -244,59 +261,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<style>
-/* Hide the Google Translate top bar */
-.goog-te-banner-frame.skiptranslate {
-    display: none !important;
-} 
-body {
-    top: 0px !important; 
-}
-/* Style for navbar integration */
-#google_translate_element select {
-    background-color: transparent;
-    color: inherit;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 2px 5px;
-    font-size: 14px;
-}
-</style>
-
-<div id="google_translate_element_container" style="display:none;">
-  <div id="google_translate_element"></div>
-</div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,zh-CN,zh-TW',
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-    autoDisplay: false
-  }, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Move the translate widget to the right navbar
-  setTimeout(function() {
-    const rightNavbar = document.querySelector(".navbar-nav.ms-auto");
-    const translateDiv = document.getElementById("google_translate_element");
-    if (rightNavbar && translateDiv) {
-      let li = document.createElement("li");
-      li.className = "nav-item";
-      li.style.marginTop = "4px";
-      li.style.marginLeft = "10px";
-      li.appendChild(translateDiv);
-      rightNavbar.appendChild(li);
-    }
-  }, 100);
-});
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

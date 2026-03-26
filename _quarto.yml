@@ -3,18 +3,24 @@ project:
   output-dir: docs
 
 website:
-  search: false
   title: "Marco Wang"
+  search: false
   navbar:
     left:
       - href: index.qmd
         text: Home
       - resume.qmd
       - about.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/hyw0234/
+      - icon: github
+        href: https://github.com/M4RC034
+      - icon: envelope
+        href: mailto:marco34@student.ubc.ca
 
 format:
   html:
-    include-after-body: translate.html
     theme:
       - cosmo
       - brand

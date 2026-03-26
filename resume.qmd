@@ -8,7 +8,7 @@ title: "Resume"
 
 ## Professional Summary
 
-Machine learning engineer and Data Scientist specializing in computational linguistics and speech processing, with hands-on experience building ASR/TTS pipelines and multi-speaker modeling (diarization, VAD, SER).
+Machine learning engineer and data scientist with experience in computational linguistics, speech processing, and NLP systems, with hands-on experience on end-to-end ML pipelines, conversational AI applications, and multimodal speech systems.
 
 ---
 
@@ -17,10 +17,10 @@ Machine learning engineer and Data Scientist specializing in computational lingu
 | Category | Skills |
 |---|---|
 | **Languages** | Python, C/C++, R, JavaScript, SQL, Swift |
-| **ML / Deep Learning** | PyTorch, Transformers, Scikit-learn, Diffusion LLM, Retrieval-Augmented Generation (RAG) |
+| **ML / Deep Learning** | PyTorch, Transformers, Scikit-learn, Retrieval-Augmented Generation (RAG), Diffusion Models |
 | **Speech / Audio Tooling** | ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow |
 | **Data Science & Analysis** | NumPy, Pandas, Matplotlib, PostgreSQL, Seaborn |
-| **Experiment & Dev Tools** | Weights & Biases, Jupyter, Git, Linux, Conda, AWS, Docker, FastAPI |
+| **Experiment & Dev Tools** | FastAPI, Docker, AWS, Git, Linux, Conda, Jupyter, Weights & Biases, Apptainer |
 
 ---
 
@@ -48,26 +48,26 @@ Machine learning engineer and Data Scientist specializing in computational lingu
 ## Projects
 
 **Annotated Corpus Platform with Interactive Interface** | Remote  
-*Github* | *Dec 2026*
+*Github* | *Mar 2026*
 
-* Built an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.
+* Collaborated in a group of four to build an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.
 * Containerized the system using Docker to ensure reproducibility and simplify deployment in production-like environments.
+
+**RAG-Based Recipe Chatbot** | Remote  
+*Github* | *Mar 2026*
+
+* Developed a Python-based recipe chatbot using Retrieval-Augmented Generation (RAG), all-MiniLM-L6-v2 embeddings, and cosine-similarity vector search to answer natural-language queries over a cookbook dataset.
+* Integrated LLaMA 3.3 70B via NVIDIA API, intent classification, and recipe-scaling features to improve response relevance, functionality, and user experience.
 
 **Automated Pipeline for TTS Quality Assessment via Speaker Verification Analysis** | Vancouver, BC  
 *UBC* | *Dec 2025*
 
-* Developed an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain’s ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.
-
-**Text-to-Speech (TTS) Model Training** | Taipei, TW  
-*NTNU* | *Dec 2024*
-
-* Implemented a FastSpeech2-based Text-to-Speech model using SpeechBrain, training on the LJSpeech 1.1 dataset.
-* Utilized checkpoint-based training to resume experiments efficiently and maintain reproducibility across training iterations.
+* Developed an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain's ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.
 
 **Automatic Speech Recognition (ASR) Project** | Taipei, TW  
 *NTNU* | *Sep 2024*
 
-* Built an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compare that to Conformer.
+* Built an End-to-End ASR system using ESPnet2 with Transformer and Conformer models, achieving a 27.8% word error rate (WER) on the AN4 dataset using the Transformer model and compared it to Conformer.
 * Conducted comprehensive data analysis and optimized model parameters, resulting in a 15% performance improvement of the Transformer model over Conformer, and analyzed the stability and effectiveness in feature extraction and speech recognition tasks in both models.
 
 ---
