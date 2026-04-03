@@ -31,16 +31,11 @@ Machine learning engineer and data scientist with experience in computational li
 
 * Investigate how diffusion-based models improve text-to-speech by developing end-to-end experimentation workflows—from dataset curation and preprocessing to model training, inference, and performance reporting.
 
----
-
-## Research Experience
-
-**Undergraduate Research** | Taipei, TW  
-*Speech and Machine Intelligence Laboratory, National Taiwan Normal University*  
-*Principal Investigator: Dr. Berlin Chen* | *Nov 2024 – June 2025*
+**Research Assistant** | Taipei, TW  
+*Speech and Machine Intelligence Laboratory, National Taiwan Normal University* | *Nov 2024 – Jun 2025*
 
 * Led a research project on multi-speaker Speech Emotion Recognition, improving alignment accuracy & data quality.
-* Developed a pipeline integrating WhisperX and Pyannote outputs into a novel alignment method, combining aligned audio segments with Wav2vec 2.0 and RoBERTa via bimodal cross-attention fusion.
+* Developed a pipeline integrating WhisperX and Pyannote outputs into a novel alignment method, combining aligned audio segments with Wav2Vec 2.0 and RoBERTa via bimodal cross-attention fusion.
 * Achieved +10% accuracy improvement on the IEMOCAP dataset, demonstrating the benefits of using aligned, clean segments for SER in multi-speaker settings.
 
 ---
@@ -51,7 +46,7 @@ Machine learning engineer and data scientist with experience in computational li
 *Github* | *Mar 2026*
 
 * Collaborated in a group of four to build an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.
-* Containerized the system using Docker to ensure reproducibility and simplify deployment in production-like environments.
+* Containerized the system with Docker for reproducibility and deployment, and are extending the platform to support model training and evaluation pipelines for under-resourced languages using the annotated corpus.
 
 **RAG-Based Recipe Chatbot** | Remote  
 *Github* | *Mar 2026*
@@ -62,7 +57,8 @@ Machine learning engineer and data scientist with experience in computational li
 **Automated Pipeline for TTS Quality Assessment via Speaker Verification Analysis** | Vancouver, BC  
 *UBC* | *Dec 2025*
 
-* Developed an automated evaluation pipeline for a zero-shot voice cloning model (F5-TTS), processing over 2,000 audio segments from the LibriTTS dataset. Integrated SpeechBrain's ECAPA-TDNN to extract speaker embeddings and quantified voice cloning performance using Cosine Similarity.
+* Developed an automated evaluation pipeline for F5-TTS on 2,000+ LibriTTS audio segments, integrating SpeechBrain ECAPA-TDNN to extract speaker embeddings and quantify voice cloning quality using cosine similarity.
+* Built a scalable workflow for preprocessing, batch inference, and metric reporting, enabling efficient and reproducible evaluation of speaker preservation in zero-shot voice cloning.
 
 **Automatic Speech Recognition (ASR) Project** | Taipei, TW  
 *NTNU* | *Sep 2024*
@@ -75,10 +71,10 @@ Machine learning engineer and data scientist with experience in computational li
 ## Education
 
 **University of British Columbia** | Vancouver, BC  
-*Master of Data Science in Computational Linguistics* | *Sep 2025 – Jun 2026*
+*Master of Data Science in Computational Linguistics*
 
 **National Taiwan Normal University** | Taipei, TW  
-*Double Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English* | *Sep 2020 – Jun 2025*
+*Double Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English*
 
 ---
 
