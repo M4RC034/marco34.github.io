@@ -25,7 +25,7 @@ about:
 
 **University of British Columbia** | Vancouver, BC, Canada
 <div style="padding-left: 1.5em; margin-bottom: 1em;">
-<p><strong>Master of Data Science, Computational Linguistics</strong>  | <em>August 2025 - Jun 2026</em></p>
+<p><strong>Master of Data Science, Computational Linguistics</strong>  | <em>September 2025 - June 2026</em></p>
 </div>
 
 **National Taiwan Normal University** | Taipei, TW
@@ -37,8 +37,8 @@ about:
 
 <ul>
 <li><strong>Programming</strong>: Python, C/C++, R, JavaScript, SQL, Swift</li>
-<li><strong>Machine Learning</strong>: PyTorch, Diffusion LLM, Retrieval-Augmented Generation (RAG)</li>
-<li><strong>Speech / Audio Tooling</strong>: ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow</li>
+<li><strong>Machine Learning</strong>: PyTorch, Diffusion Models, Retrieval-Augmented Generation (RAG), LangChain / LangGraph, CLIP, Vision-Language & Multimodal Learning</li>
+<li><strong>Speech / Audio Tooling</strong>: ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Wav2Vec 2.0, Dialogflow</li>
 </ul>
 
 </div>

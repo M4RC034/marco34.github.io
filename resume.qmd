@@ -8,7 +8,7 @@ title: "Resume"
 
 ## Professional Summary
 
-Machine learning engineer and data scientist with experience in computational linguistics, speech processing, and NLP systems, with hands-on experience on end-to-end ML pipelines, conversational AI applications, and multimodal speech systems.
+Machine learning engineer and data scientist with experience in computational linguistics, speech processing, and NLP systems, with hands-on experience in end-to-end ML pipelines, conversational AI applications, and multimodal speech systems.
 
 ---
 
@@ -16,20 +16,21 @@ Machine learning engineer and data scientist with experience in computational li
 
 | Category | Skills |
 |---|---|
-| **Languages** | Python, C/C++, R, JavaScript, SQL, Swift |
-| **ML / Deep Learning** | PyTorch, Transformers, Scikit-learn, Retrieval-Augmented Generation (RAG), Diffusion Models |
-| **Speech / Audio Tooling** | ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow |
+| **Languages** | Python, C/C++, JavaScript, SQL, R, Swift |
+| **ML / Deep Learning** | PyTorch, Transformers, Scikit-learn, Retrieval-Augmented Generation (RAG), Diffusion Models, LangChain, LangGraph, ReAct, CLIP, Large Language Models, Vision-Language Models, Multimodal Learning |
+| **Speech / Audio Processing** | ESPnet2, SpeechBrain, WhisperX, pyannote.audio, Dialogflow, Wav2Vec 2.0, Automatic Speech Recognition, Text-to-Speech, Speech Emotion Recognition, Speaker Diarization |
 | **Data Science & Analysis** | NumPy, Pandas, Matplotlib, PostgreSQL, Seaborn |
-| **Experiment & Dev Tools** | FastAPI, Docker, AWS, Git, Linux, Conda, Jupyter, Weights & Biases, Apptainer |
+| **Experiment & Dev Tools** | FastAPI, Docker, AWS, Google Cloud Platform, Git, Linux, Conda, Jupyter, Weights & Biases, Apptainer |
 
 ---
 
 ## Work Experience
 
-**Graduate Research Assistant** | Vancouver, BC  
+**Graduate Research Assistant** | Vancouver, BC\
 *Speech, Language and Interactive Media Lab, The University of British Columbia* | *Aug 2025 – Present*
 
-* Investigate how diffusion-based models improve text-to-speech by developing end-to-end experimentation workflows—from dataset curation and preprocessing to model training, inference, and performance reporting.
+* Research diffusion-based approaches for text-to-speech systems by building end-to-end experimentation workflows covering dataset curation, preprocessing, model training, inference, and evaluation.
+* Implemented block diffusion mechanisms into a diffusion language model-style TTS framework to accelerate inference by processing tokens in parallel blocks, and extended the TTS model into a dLLM-based TTS system by integrating Edit-Flow methods within the dLLM library to enable token-level editing and controllable speech generation.
 
 **Research Assistant** | Taipei, TW  
 *Speech and Machine Intelligence Laboratory, National Taiwan Normal University* | *Nov 2024 – Jun 2025*
@@ -42,13 +43,25 @@ Machine learning engineer and data scientist with experience in computational li
 
 ## Projects
 
-**Annotated Corpus Platform with Interactive Interface** | Remote  
+**Healthcare Conversational AI Summarization System** | Vancouver, BC\
 *Github* | *Mar 2026*
 
-* Collaborated in a group of four to build an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflow and backend service for scalable data management.
-* Containerized the system with Docker for reproducibility and deployment, and are extending the platform to support model training and evaluation pipelines for under-resourced languages using the annotated corpus.
+* Developing a healthcare conversational AI system that records, transcribes, diarizes, and summarizes multi-speaker clinical consultations while reducing hallucinations in generated summaries.
+* Integrating WhisperX, Retrieval-Augmented Generation, and LLM-based summarization pipelines using FastAPI and Google Cloud Platform to support accurate action-item extraction and privacy-conscious local medical data processing workflows.
 
-**RAG-Based Recipe Chatbot** | Remote  
+**Annotated Corpus Platform with Interactive Interface** | Remote\
+*Github* | *Mar 2026*
+
+* Collaborated in a group of four to build an end-to-end annotated corpus system with a FastAPI-based interactive interface, supporting data annotation workflows and backend services for scalable data management.
+* Containerized the system with Docker for reproducibility and deployment, and extended the platform to support model training and evaluation pipelines for under-resourced languages using the annotated corpus.
+
+**Multimodal AI Commerce Agentic System** | Remote\
+*Github* | *Mar 2026*
+
+* Developed a multimodal AI commerce assistant using LangChain, OpenAI APIs, and Retrieval-Augmented Generation (RAG) to support intelligent product search, recommendation, and conversational interactions.
+* Integrated CLIP-based vision-language retrieval, vector database search, and tool-calling workflows to enable multimodal understanding and context-aware AI behavior across e-commerce scenarios.
+
+**RAG-Based Recipe Chatbot** | Remote\
 *Github* | *Mar 2026*
 
 * Developed a Python-based recipe chatbot using Retrieval-Augmented Generation (RAG), all-MiniLM-L6-v2 embeddings, and cosine-similarity vector search to answer natural-language queries over a cookbook dataset.
@@ -70,11 +83,11 @@ Machine learning engineer and data scientist with experience in computational li
 
 ## Education
 
-**University of British Columbia** | Vancouver, BC  
-*Master of Data Science in Computational Linguistics*
+**University of British Columbia** | Vancouver, BC\
+*Master of Data Science in Computational Linguistics* | *Sep 2025 – Jun 2026*
 
-**National Taiwan Normal University** | Taipei, TW  
-*Double Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English*
+**National Taiwan Normal University** | Taipei, TW\
+*Double Degree of Bachelor of Science in Computer Science & Bachelor of Arts in English* | *Sep 2020 – Jun 2025*
 
 ---
 
