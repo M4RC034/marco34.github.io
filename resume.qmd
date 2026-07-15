@@ -39,6 +39,13 @@ Machine learning engineer and data scientist with experience in computational li
 * Developed a pipeline integrating WhisperX and Pyannote outputs into a novel alignment method, combining aligned audio segments with Wav2Vec 2.0 and RoBERTa via bimodal cross-attention fusion.
 * Achieved +10% accuracy improvement on the IEMOCAP dataset, demonstrating the benefits of using aligned, clean segments for SER in multi-speaker settings.
 
+**Administrative Assistant** | Taipei City, Taiwan\
+*Department of English, National Taiwan Normal University · Contract Part-time* | *Feb 2022 – Feb 2024*
+
+* Provided administrative support to the Department of English, managing departmental tasks and assisting in daily operations to ensure smooth functioning.
+* Assisted with hardware and software maintenance, including repairing and replacing obsolete equipment.
+* Supported lecturers in ensuring departmental equipment effectively met academic needs.
+
 ---
 
 ## Projects
